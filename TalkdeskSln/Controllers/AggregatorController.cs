@@ -13,15 +13,15 @@ namespace Talkdesk.Controllers
     public class AggregatorController : Controller
     {
         // POST: AggregatorController/Aggregate
-        [HttpPost]
-        public ActionResult Aggregate([FromBody] string[] numbers)
+        [HttpPost("Aggregate")]
+        public IActionResult Aggregate([FromBody] string[] numbers)
         {
             try
             {
                 Helper hlp = new Helper();
                 string jResult = hlp.GetNumberData(numbers.ToList<string>());
 
-                return StatusCode(200, Json(jResult));
+                return Json(jResult);
             }
             catch
             {
@@ -30,15 +30,15 @@ namespace Talkdesk.Controllers
         }
 
         // GET: api/<controller>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        [HttpGet("Aggregate")]
+        public IActionResult Get()
         {
             //Example Test
             string[] numbers = new string[] { "+1983236248", "+1 7490276403", "001382355A", "+351917382672", "+35191734022" };
             Helper hlp = new Helper(false);
             string jResult = hlp.GetNumberData(numbers.ToList<string>());
 
-            return new string[] { jResult };
+            return Json(jResult);
         }
 
     }
