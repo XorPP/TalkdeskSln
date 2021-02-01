@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkdeskSln", "TalkdeskSln\TalkdeskSln.csproj", "{19DDCDD5-5199-4E39-850F-463B5486E822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DDCDD5-5199-4E39-850F-463B5486E822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DDCDD5-5199-4E39-850F-463B5486E822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DDCDD5-5199-4E39-850F-463B5486E822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DDCDD5-5199-4E39-850F-463B5486E822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B31798E-4D54-456C-B1D5-16DD9CA8B99D}
+	EndGlobalSection
+EndGlobal
